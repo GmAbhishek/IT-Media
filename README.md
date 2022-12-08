@@ -2,7 +2,7 @@ IT-Media
 
 By
   - Athif.M  
-  - Hemaharshini.k.j
+  - Hemaharshini.K.J
   - Thamarai  
   - Gowtham.S  
   - Gm_Abhishek
