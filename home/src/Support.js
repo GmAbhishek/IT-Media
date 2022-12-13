@@ -4,7 +4,7 @@ import CallIcon from '@mui/icons-material/Call';
 import EmailIcon from '@mui/icons-material/Email';
 import PlaceIcon from '@mui/icons-material/Place';
 import { Circle } from '@mui/icons-material';
-import imglogo from './images/IT Logo.png';
+import imglogo from './imgs/logo.png';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 //import Link from '@mui/material/Link'
 

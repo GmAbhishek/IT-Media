@@ -25,7 +25,15 @@ export default function Home() {
         <h1>Goal</h1>
         <div className='textWriting'><h2>"To Become Better<br></br> than the Best"</h2></div>
         <div><h1><u>WHAT WE ARE</u></h1></div>
-        
+        </div>
+        <div id="contact">
+        <br/>
+        <h2 id='contacthead'>Contact Us</h2>
+        <p id='Para4'><u><b>Phone</b></u> : 1234567890<br/><br/><u><b>E-Mail</b></u> : itmedia@gmail.com</p>
+        <img src='./imgs/Telegram.png' id='imginsta' alt='' width='45'/>
+        <img src='./imgs/Youtube.png' id='imginsta' alt='' width='45'/>
+        <img src='./imgs/Spotify.png' id='imginsta' alt='' width='45'/>
+        <br/>
         </div>
     </>
   )
