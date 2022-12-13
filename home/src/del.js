@@ -27,10 +27,10 @@ export default function Fun() {
                     <hr />
                     <br />
                     <h1>Upload Files Here</h1>
-                    <h2>Supported formats: */*</h2>
+                    <h2>Supported formats: *.*</h2>
                     <div>
                         <h5 > +UPLOAD</h5>
-                        <input type={"file"}></input>
+                        <input onChange={hehe} type={"file"} multiple></input>
                         <p>drop a file here </p>
                     </div>
 
@@ -53,4 +53,13 @@ export default function Fun() {
 
 }
 
+function hehe(e){
+    let inp=document.querySelector("input").files[0]
+    let fr=new FileReader()
+    fr.readAsDataURL(inp)
+    fr.onloadend=es=>{
+        console.log(es.target.result);
+        // alert(es.target.result)
+    }
+}
 // export default fun

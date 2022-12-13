@@ -5,12 +5,12 @@
 
 #head{
 
-    background-image: url("./backgroundGrey.jpg");
+   /* background-image: url("./images/site\ bg.jpg");*/
     background-repeat:"no-repeat";
     background-size:"fill";
     background-position:'center';
     background-attachment:'';
-    height: 300vh;
+    height: 240 vh;
 }
 
 
